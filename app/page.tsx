@@ -1,8 +1,10 @@
+import NavbarPage from "./components/Navbar";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Welcome to Next.js 🚀</h1>
-      <p>This is the home page</p>
-    </main>
+    <div>
+      <NavbarPage />
+      <h1>Home Page</h1>
+    </div>
   );
 }
